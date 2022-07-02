@@ -1,0 +1,574 @@
+
+
+
+* ,::after ,::after
+{
+margin: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+body
+{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+header
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+position: fixed;
+right: 0px;
+left: 0px;
+top: 0px;
+box-shadow: 0px 2px 5px gainsboro;
+z-index: 12;
+}
+
+header .menuresponsive
+{
+   display: none;
+}
+
+
+header span
+{
+  color: crimson;
+    
+}
+
+
+
+nav ul
+{
+display: flex;
+flex-wrap: wrap;
+  list-style: none;
+
+}
+
+nav ul li a
+{
+text-decoration: 0;
+margin-left: 30px;
+color: gray;
+}
+
+
+nav ul li a:hover
+{
+color: brown;
+}
+
+
+header button
+{
+  padding: 5px 20px;
+   background-color: crimson; 
+border: none;
+color: white;
+}
+
+
+.sect1
+{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+padding: 150px 0px 0px 20px;
+}
+
+
+.sect1 span
+{
+color: crimson;
+}
+
+
+.sect1 h1
+{
+font-size: 35px;
+margin-bottom: 10px;
+}
+
+
+.sect1 p
+{
+color: gray;
+}
+
+
+
+.sect1 button
+{
+background-color: crimson;
+color: white;
+border: none;
+padding: 6px 20px;
+margin-top: 20px;
+}
+
+
+.sect1 button:hover
+{
+background-color: black;
+
+}
+
+.sect2
+{
+text-align: center;
+padding-top: 100px;
+padding-bottom: 150px;
+}
+
+
+.sect2 h1
+{
+position:relative ;
+margin-bottom: 100px;
+}
+
+.sect2 h1::before
+{
+content:"";
+position: absolute;
+top: -4px;
+width: 15% ;
+height: 4px;
+background-color: crimson;
+transform: translateX(-7px);
+border-radius: 6px;
+}
+
+.sect2 h1::after
+ {  
+content:"";
+position: absolute;
+bottom: -4px;
+width: 15% ;
+height: 4px;
+background-color: crimson;
+transform: translateX(-95%);
+border-radius: 6px;
+}
+
+.sect2 .petitvehicule h3
+{
+    color: crimson;
+}
+
+
+
+.sect2 .petitvehicule button
+{
+   background-color: crimson; 
+   color: white;
+border: none;
+padding: 5px 15px;
+
+}
+
+
+.sect2 .petitvehicule 
+{
+   margin-right: 30px;
+   transition: 1s;
+}
+
+.sect2 .petitvehicule:hover 
+{
+   transform: scale(1.3);
+}
+
+
+
+.sect2 .vehicule
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.sect3
+{
+text-align:center ;
+
+}
+
+
+.sect3 h1
+{
+position: relative;
+margin-top: -20px 0px 20px 0px;
+}
+
+
+
+.sect3 h1::before
+{
+content:"";
+position: absolute;
+top: -4px;
+width: 14% ;
+height: 4px;
+background-color: crimson;
+transform: translateX(-7px);
+border-radius: 6px;
+}
+
+.sect3 h1::after
+ {  
+content:"";
+position: absolute;
+bottom: -4px;
+width: 14% ;
+height: 4px;
+background-color: crimson;
+transform: translateX(-95%);
+border-radius: 6px;
+}
+
+.plaq
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 80px 0px 80px 0px;
+
+}
+
+
+
+
+.sect3 .petitplaq img
+{
+border-radius: 50%;
+
+}
+
+.sect3 .petitplaq 
+{
+background-color: white;
+width: 250px;
+height: 180px;
+padding-top: 20px;
+box-shadow: 1px 1px 3px 5px gray;
+margin-right: 30px;
+
+}
+
+
+.sect3 .petitplaq p
+{
+color: gray;
+
+}
+
+
+.sect3 .petitplaq button
+{
+background-color: white;
+color: brown;
+border: 1px solid brown;
+padding: 3px 17px;
+margin-top: 5px;
+
+}
+
+
+
+.sect4 
+{
+text-align: center;
+margin: 140px 0px 50px 0px;
+
+
+
+}
+
+
+.sect4 h1
+{
+position: relative;
+
+
+}
+
+
+
+.sect4 h1::before
+{
+content:"";
+position: absolute;
+top: -4px;
+width: 18% ;
+height: 4px;
+background-color: crimson;
+transform: translateX(-7px);
+border-radius: 6px;
+}
+
+.sect4 h1::after
+ {  
+content:"";
+position: absolute;
+bottom: -4px;
+width: 18% ;
+height: 4px;
+background-color: crimson;
+transform: translateX(-95%);
+border-radius: 6px;
+}
+
+
+
+.sect4 .contact 
+
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 60px;
+
+}
+
+
+
+
+.sect4 .contact .cart
+{
+width: 400px;
+height: 330px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 1px 2px 8px gainsboro;
+margin-right: 10px;
+}
+
+
+.sect4 .contact .formulair
+{
+width: 410px;
+height: 330px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 1px 2px 8px gainsboro;
+margin-left: 10px;
+}
+
+.sect4 .contact .formulair input
+{
+width: 390px;
+height: 20px;
+border-radius: 5px;
+border: 1px solid gray;
+margin-bottom: 10px;
+
+}
+
+
+
+.sect4 .contact .formulair textarea
+{
+width: 390px;
+height: 170px;
+border-radius: 5px;
+border: 1px solid gray;
+margin-bottom: 5px;
+}
+
+
+.sect4 .contact .formulair #envoy
+{
+width: 400px;
+height: 20px;
+border-radius: 5px;
+border: none;
+background-color: crimson;
+color: white;
+}
+
+
+footer
+{
+text-align: center;
+color: white;
+background-color: crimson;
+padding: 20px;
+
+}
+
+
+footer span
+{
+color: blue;
+}
+
+ 
+
+
+@media (max-width:900px)
+{
+
+
+
+
+
+   .sect2 h1::before
+   {
+      width: 42% ;
+   }
+   
+   .sect2 h1::after
+    {  
+   width: 43% ;
+   }
+
+
+   .sect2 .petitvehicule 
+   {
+      margin-bottom: 50px;
+   }
+
+
+   .sect2 .vehicule
+   {
+       
+       margin-bottom: -5px;
+   }
+   
+
+
+   .sect3 h1::before
+   {
+   width: 40% ;
+   }
+   
+   .sect3 h1::after
+    {  
+   width: 40% ;
+   }
+
+
+   .sect3 .petitplaq 
+   {
+   
+   margin-bottom: 30px;
+   
+   }
+
+
+   .sect4 h1::before
+   {
+   width: 50% ;
+   }
+   
+   .sect4 h1::after
+    {  
+   width: 50% ;
+   }
+
+.sect4 .cart
+{
+   margin-bottom: 40px;
+}
+
+
+header nav
+{
+display: none;
+}
+
+header nav.navnouvo
+{
+display: flex;
+}
+
+
+header .menuresponsive
+{
+   display: flex;
+width: 40px;
+height: 30px;
+position: relative;
+margin-top: 20px;
+
+
+}
+
+
+
+header .menuresponsive::before
+{
+content:"";
+
+   display: flex;
+background-color: crimson;
+width: 70px;
+height: 4px;
+position: relative;
+top: -5px;
+box-shadow: 0px 8px 0px crimson ;
+
+}
+
+
+header .menuresponsive.menunouvo::before
+{
+
+box-shadow: 0px 0px 0px crimson ;
+transform: rotate(-135deg);
+width: 100px;
+top: 0px;
+}
+
+
+header .menuresponsive.menunouvo::after   
+{
+transform: rotate(135deg);
+width: 100px;
+bottom: 0px;
+}
+
+header .menuresponsive::after   
+{
+content:"";
+
+   display: flex;
+background-color: crimson;
+width: 40px;
+height: 4px;
+position: relative;
+right: 20px;
+bottom: -12px;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
